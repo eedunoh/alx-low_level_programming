@@ -1,21 +1,26 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - Prints the alphabet except the letters q and e.
-(*
- * Return: 0 on success
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-char c = a;
+char low, e, q;
 
-while (c <= z)
+e = e;
+q = q;
+
+for (low = a; low <= z; low++)
 {
-if (c != q && c != e)
-{
-putchar(c);
-}
-c++;
+if (low != e && low != q)
+putchar(low);
 }
 putchar(n);
+
 return (0);
 }

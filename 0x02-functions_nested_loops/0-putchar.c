@@ -9,15 +9,15 @@ int main(void)
 
 {
 
-README.md _putchar(_);
-README.md _putchar(p);
-README.md _putchar(u);
-README.md _putchar(t);
-README.md _putchar(c);
-README.md _putchar(h);
-README.md _putchar(a);
-README.md _putchar(r);
-README.md _putchar(n);
-README.md return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 
 }
